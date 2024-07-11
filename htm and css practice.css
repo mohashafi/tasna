@@ -1,14 +1,59 @@
-body{
-    background-color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*{
+    margin:0;
+    padding:0;
+    
 }
-h1{
-    color: rgb(173, 109, 14);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-.div1{
-    color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 2%;
-    border: 2px;
+#container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+
+}
+#Header{
+background-color: rgb(231, 148, 33);
+width: 1200px;
+
+}
+#Header h1{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#nav{
+background-color: aqua;
+width: 1200px;
+
+}
+#nav li{
+    text-decoration: none;
+    border: 1px solid red;
+    float: left;
+    background: rgb(43, 226, 95);
+    color: white;
+    padding: 10px 19px;
+  width: 200px;
+  text-align: center;  
+}
+#nav li:hover{
+    background-color: black;
+    color: white;
+}
+#content{
+    background-color: rgb(108, 24, 187);
+    width: 1200px;
+}
+.leftside{
+background-color: tan;
+width: 200px;
+height: 400px;
+float:left;
+}
+.rightside{
+    background-color: blue;
+    width: 1000px;
+    height: 400px;
+    float: left;
+
+}
+#footer{
+
 }
