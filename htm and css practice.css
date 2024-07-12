@@ -24,6 +24,7 @@ width: 1200px;
 
 }
 #nav li{
+    list-style-type: none;
     text-decoration: none;
     border: 1px solid red;
     float: left;
