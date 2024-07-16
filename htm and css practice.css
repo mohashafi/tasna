@@ -23,10 +23,11 @@ background-color: aqua;
 width: 1200px;
 
 }
+
 #nav li{
     list-style-type: none;
     text-decoration: none;
-    border: 1px solid red;
+    border: 1px groove red;
     float: left;
     background: rgb(43, 226, 95);
     color: white;

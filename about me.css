@@ -1,0 +1,25 @@
+body{
+    margin:auto;
+    padding: 0;
+    
+}
+img{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    display: block;
+    margin-left: 50%;
+}
+h1 {
+    
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration:dashed;
+}
+#container{
+    background-color: rebeccapurple;
+    text-align: center;
+    margin: 50px;
+    padding: 0%;
+}
