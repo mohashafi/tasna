@@ -1,14 +1,24 @@
-body{
-    margin:auto;
+*{
+
+    margin: 0;
     padding: 0;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+body{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
     
 }
 img{
     width: 300px;
     height: 200px;
-    align-items: center;
-    display: block;
-    margin-left: 50%;
+    
 }
 h1 {
     
@@ -16,10 +26,4 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-decoration:dashed;
-}
-#container{
-    background-color: rebeccapurple;
-    text-align: center;
-    margin: 50px;
-    padding: 0%;
 }
