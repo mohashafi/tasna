@@ -6,21 +6,29 @@
 </head>
 <body>
 <h2>sign Up</h2>
-<label>First and Middle Name </label>
-<input type="text" Placeholder="First and Middle Name "><br><br>
-<label>Last Name </label>
-<input type="text" placeholder="Last Name"><br><br>
+<form>
+<div id="signupform">
+<label for="firsname">First and Middle Name </label>
+<input type="text" id="firstName" name="firstName" Placeholder="First and Middle Name " required><br><br>
+<label for="lastName">Last Name </label>
+<input type="text" id="lastName" name="lastName" placeholder="Last Name"><br><br>
+<input type="radio" value ="male" name="Gender" id ="male">
+<label for="male">Male</label>
+<input type="radio" name ="Gender" value="female" id="female">
+<label for="female">Female</label><br><br>
 <label>E-mail Address</label>
-<input type="Email" Placeholder ="Input Your Email" Name="E-mail"><br><br>
-<label> Date of Birth</label>
-<input type="date"><br><br>
-<label>User Name</label>
-<input type= "text" placeholder="Choose Username"> <br><br>
+<input type="Email" name="email" id="email" Placeholder ="Input Your Email"><br><br>
+<label for="dateOfBirth"> Date of Birth</label>
+<input type="date" name="date" id="Date" required><br><br>
+<label for="UserName">User Name</label>
+<input type= "text" name="UserName" id="UserName" placeholder="Choose Username" required> <br><br>
 <label>Password</label>
 <input type="Password" placeholder="Eneter Your Password" Name= "Password"><br><br>
 <label>Repeat Password</label>
 <input type="Password" Placeholder="Repeat Password" Name= "Repeat Password"><br><br>
 <input type ="Submit" value ="Submit" Name="Submit"> <input type ="Submit" value ="Reset" Name="reset">
+</div>
+</form>
 
 </body>
 </html>
