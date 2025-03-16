@@ -1,0 +1,14 @@
+.tableone{
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: blue;
+    font-variant: small-caps;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0cqb;
+}
+td, tr{
+    border: 2px solid ;
+}

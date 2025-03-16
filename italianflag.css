@@ -1,0 +1,29 @@
+.one{
+
+    background-color:#077D41;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.two{
+
+    background-color:#ffffff;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.three{
+
+    background-color:#A52831;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
