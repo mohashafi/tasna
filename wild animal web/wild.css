@@ -49,3 +49,36 @@ color: white;
 .main_nav ul  :hover{
     background-color:  green;
 }
+.cont{
+    display: grid;
+    width: 800px;    
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    justify-content: center;
+    column-gap: 10px; 
+    row-gap: 15px; 
+    gap: 15px 10px; 
+   
+}
+
+
+.card {
+    background-color: #1177b0;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    background-image: radial-gradient(#156fa4 1px, transparent 1px);
+    background-size: 20px 20px;
+    
+}
+
+.card img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+  .card-text {
+    
+    font-size: 18px;
+}
